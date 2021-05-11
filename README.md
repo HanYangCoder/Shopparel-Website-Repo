@@ -17,6 +17,11 @@ Since the development of the app will be limited to using a web browser, to deve
 The use of MySQL and XAMPP will also be needed for the server side since this site will be probably run in a localhost and not deployed through the web.
 The website will be coded through a mix of Windows 10 and Ubuntu Linux environments.
 
+### File organizations
+The starting file in the project is at index.php which will probably be the login page.
+There will be an assests folder for the images and the main-src folder will contain the rest of the main project.
+There is also the test folder for testing out different files/scripts than can be applied to the system.
+
 ### Database tables
 
 Utilizing MySQL for database hosting will require a relational database model with the following databases below, the developers have decided to use this design to be able to meet the expected functionalities of the site. UserDB will have 2 types of user accounts, a buyer and a seller, you can always choose to upgrade your account if you have something to sell. Follow this database structure and you'll probably be fine, will keep updating this to keep you updated.

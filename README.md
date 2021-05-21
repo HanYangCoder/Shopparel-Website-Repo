@@ -14,8 +14,11 @@ The project will only be limited to a website to be able to be target a big user
 ### Development tools and environment
 
 Since the development of the app will be limited to using a web browser, to develop the app the contributor must at least have knowledge in HTML, CSS, and JavaScript for the client side (front-end) and PHP for the server side (back-end).
-The use of MySQL and XAMPP will also be needed for the server side since this site will be probably run in a localhost and not deployed through the web.
-The website will be coded through a mix of Windows 10 and Ubuntu Linux environments.
+The use of MySQL and XAMPP will also be needed for the server side since this site will be probably run in a localhost and will not deployed through the web.
+The website will be coded and tested through a mix of Windows 10 and Ubuntu Linux environments.
+
+### How to run the project
+To run this project, clone the repository to your local machine and start your XAMPP Apache and MySQL server and run this in the browser through localhost.
 
 ### File organizations
 The starting file in the project is at index.php which will probably be the login page.

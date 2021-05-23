@@ -40,7 +40,7 @@ Databases and columns:
 
 ### Website module components
 
-The website development will be divided into the folowing 14 modules according to this sequence below to accomodate the limited time period which will probably be due by the end of June 2021 which is just a little over 2 months at the time of this writing.
+The website development will be divided into the folowing 14 modules according to this sequence below to accomodate the limited time period which will probably be due by the end of June 2021 which is just a little over 1 month at the time of this writing.
 
 1. Login module
 2. Display items

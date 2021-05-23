@@ -18,7 +18,7 @@ The use of MySQL and XAMPP will also be needed for the server side since this si
 The website will be coded and tested through a mix of Windows 10 and Ubuntu Linux environments.
 
 ### How to run the project
-To run this project, clone the repository to your local machine and start your XAMPP Apache and MySQL server and run this in the browser through localhost.
+To run this project, clone the repository to your local machine and start your XAMPP Apache and MySQL server and run this in the browser through localhost. Be sure to have the specified database requirements on your XAMPP/WAMPP server to run the project.
 
 ### File organizations
 The starting file in the project is at index.php which will probably be the login page.

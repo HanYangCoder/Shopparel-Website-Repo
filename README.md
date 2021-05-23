@@ -56,3 +56,12 @@ The website development will be divided into the folowing 14 modules according t
 12. Checkout, vouchers, and discount
 13. Upgrade account to seller
 14. Upload a product
+
+## Developers
+
+1. Hans Christian Herrera
+2. Ma. Hyacinth Mioten
+3. Aris Ernst Tabaque
+4. Prince Deo Solanib
+5. Gilmore Vilchez
+6. Kia Sherrice Abancio

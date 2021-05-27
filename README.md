@@ -20,11 +20,12 @@ The website will be coded and tested through a mix of Windows 10 and Ubuntu Linu
 ### How to run the project
 To run this project, clone the repository to your local machine and start your XAMPP Apache and MySQL server and run this in the browser through localhost. Be sure to have the specified database requirements on your XAMPP/WAMPP server to run the project.
 
-*Important*
+*Important!!!*
+
 If you're running the server on localhost, be sure to change the db_connection.php `$serverName` to localhost because I am using a different virtualhost on my machine. (Hans, server-side developer)
 
 ### File organizations
-The starting file in the project is at index.php which will probably be the login page.
+The starting file in the project is at index.php which will lead to the login page of either main or test folders.
 There will be an assests folder for the images and the main-src folder will contain the rest of the main project.
 There is also the test folder for testing out different files/scripts than can be applied to the system.
 

@@ -4,7 +4,7 @@
     $password = $_GET['password'];  // also passed from index.php
 
     // userDB is table of users from the main shopping database
-    $usersql = $conn->prepare ("Select * from userDB where username = '$username' AND password = '$password'");
+    $usersql = $conn->prepare ("Select * from userDB where userID = '$username' AND password = '$password'");
     $usersql->execute();
 
     if($user = $usersql->fetch()) {

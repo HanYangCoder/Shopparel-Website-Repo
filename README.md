@@ -36,7 +36,7 @@ Utilizing MySQL for database hosting will require a relational database model wi
 Note: PK = Primary Key and FK = Foreign Key
 
 Databases and columns:
-1. UserDB `(userID (PK), firstName, lastName, contactNumber, email, address, userType (Buyer/Seller))`
+1. UserDB `(userID (PK), firstName, lastName, password, contactNumber, email, address, userType (Buyer/Seller))`
 2. ProductsDB `(productID (PK), productName, price, stock, category, productDescription, userID (FK))`
 3. AdminDB `(adminID (PK), firstName, lastName, contactNumber, email, address)`
 4. ShoppingCartDB `(itemID (PK), userID (FK), productID (FK), price, amount, partialSummary)`

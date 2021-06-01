@@ -1,7 +1,6 @@
+<?php 
 // establishes MySQL database connection with your PHP project on XAMPP
 // if database connection is not working, try changing serverName to localhost
-
-<?php 
   $serverName = 'myvirthost';   
   $userName = 'root';
   $password = '';

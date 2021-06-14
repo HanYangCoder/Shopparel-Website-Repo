@@ -2,7 +2,7 @@
 <html>
     <head>
     <meta charset="utf-8">
-    <title>Kids - Shopparel</title>
+    <title>Women - Shopparel</title>
 
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <!--light-slider-css-->
@@ -36,14 +36,14 @@
             </a>
             <!--menu-->
             <ul class="menu">
-                <li><a href="index.html">Trends</a>
+                <li><a href="index.php">Trends</a>
                      <!--sale-lable-->
                      <span class ="sale-lable">Sale</span>
                 </li>
                
-                <li><a href="men.html">Men</a></li>
-                <li><a href="women.html">Women</a></li>
-                <li><a href="kids.html">Kids</a></li>
+                <li><a href="men.php">Men</a></li>
+                <li><a href="women.php">Women</a></li>
+                <li><a href="kids.php">Kids</a></li>
             </ul>
 
             <!--right-menu-->
@@ -57,7 +57,7 @@
                     <i class="fas fa-user"></i>
                 </a>
                 <!--cart-icon-->
-                <a href="cart.html">
+                <a href="cart.php">
                     <i class="fas fa-shopping-cart">
                     <!--number-of-product-in-cart-->
                     <span class="num-cart-product">3</span>
@@ -132,11 +132,11 @@
      <section class="sale">
         <!--sale-box-1-------------------->
         <div class="sale-box sale-1">
-            <img src="images/kids-1.png">
+            <img src="images/women-1.png">
             
             <a href="#">
             <div class="sale-text">
-              <strong>Girly <br> mode ON <br>  and Slay the crowd.</strong>
+              <strong>Get TRENDY in <br> New Arrival Dresses</strong>
               <br>
               <span>Shop Now!</span>
             </div></a>
@@ -144,12 +144,10 @@
         </div>
            <!--sale-box-2-------------------->
         <div class="sale-box sale-1">
-          <img src="images/kids-2.png">
+          <img src="images/women-2.png">
           
           <a href="#"><div class="sale-text">
-            <strong>Perfect get-UP for Babies during <br>
-                 Rainy Season <br>
-            </strong>
+            <strong>Feel the  Heat <br> and put your shades on</strong>
             <br>
             <span>Shop Now</span>
           </div></a>
@@ -157,12 +155,11 @@
         </div>
          <!--sale-box-3-------------------->
          <div class="sale-box sale-1">
-          <img src="images/kids-3.png">
+          <img src="images/women-3.png">
           
           <a href="#">
           <div class="sale-text">
-            <strong>Have a <br> Superpower <br> from  your  Fav. Hero <br>
-            to defend and protect. </strong>
+            <strong>Stay Fit  & Shaped your Body </strong>
             <br>
             <span>Shop Now</span>
           </div></a>
@@ -177,8 +174,8 @@
         <!--heading-->
 
         <div class="arrival-heading">
-            <strong>Kids Section</strong>
-            <p>Fashion Clothes for Kids Desire</p>
+            <strong>Women's Section</strong>
+            <p>Fashion Clothes for Women's Desire</p>
         </div>
 
 
@@ -194,13 +191,13 @@
              <a href="#" class="add-cart">
                  <i class="fas fa-shopping-cart"></i>
              </a>
-             <img src="images/k-1.png" />
+             <img src="images/w-1.png" />
              </div>
 
              <!--details-->
              <div class="product-details">
-                 <a href="#" class="p-name">Off Shoulder Button ...</a>
-                 <span class="p-price">₱499.00</span>
+                 <a href="#" class="p-name">Ripped Denim Jeans</a>
+                 <span class="p-price">₱399.00</span>
              </div>
          </div>
 
@@ -214,13 +211,13 @@
              <a href="#" class="add-cart">
                  <i class="fas fa-shopping-cart"></i>
              </a>
-             <img src="images/feature-c.png" />
+             <img src="images/w-2.png" />
              </div>
 
              <!--details-->
              <div class="product-details">
-                 <a href="#" class="p-name">Girls Top</a>
-                 <span class="p-price">₱599.00</span>
+                 <a href="#" class="p-name">Trendy Prom Dress</a>
+                 <span class="p-price">₱649.00</span>
              </div>
          </div>
 
@@ -234,13 +231,13 @@
              <a href="#" class="add-cart">
                  <i class="fas fa-shopping-cart"></i>
              </a>
-             <img src="images/k-3.png" />
+             <img src="images/w-3.png" />
              </div>
 
              <!--details-->
              <div class="product-details">
-                 <a href="#" class="p-name">Yellow Seersucker dress</a>
-                 <span class="p-price">₱499.00</span>
+                 <a href="#" class="p-name">Jeans in White Denim</a>
+                 <span class="p-price">₱599.00</span>
              </div>
          </div>
 
@@ -254,13 +251,13 @@
              <a href="#" class="add-cart">
                  <i class="fas fa-shopping-cart"></i>
              </a>
-             <img src="images/k-4.png" />
+             <img src="images/w-4.png" />
              </div>
 
              <!--details-->
              <div class="product-details">
-                 <a href="#" class="p-name">Kids Boy Fashion</a>
-                 <span class="p-price">₱599.00</span>
+                 <a href="#" class="p-name">Carole Eden Beige Tee</a>
+                 <span class="p-price">₱499.00</span>
              </div>
          </div>
 
@@ -274,13 +271,13 @@
              <a href="#" class="add-cart">
                  <i class="fas fa-shopping-cart"></i>
              </a>
-             <img src="images/k-5.png" />
+             <img src="images/w-5.png" />
              </div>
 
              <!--details-->
              <div class="product-details">
-                 <a href="#" class="p-name">H&M Fashion</a>
-                 <span class="p-price">₱349.00</span>
+                 <a href="#" class="p-name">Stretched Corduroy Outfit</a>
+                 <span class="p-price">₱259.00</span>
              </div>
          </div>
 
@@ -294,13 +291,13 @@
              <a href="#" class="add-cart">
                  <i class="fas fa-shopping-cart"></i>
              </a>
-             <img src="images/k-6.png" />
+             <img src="images/w-6.png" />
              </div>
 
              <!--details-->
              <div class="product-details">
-                 <a href="#" class="p-name">Maks; el niño que ..</a>
-                 <span class="p-price">₱599.00</span>
+                 <a href="#" class="p-name">Rita Yosemite Tee</a>
+                 <span class="p-price">₱399.00</span>
              </div>
          </div>
 
@@ -314,13 +311,13 @@
              <a href="#" class="add-cart">
                  <i class="fas fa-shopping-cart"></i>
              </a>
-             <img src="images/k-7.png" />
+             <img src="images/w-7.png" />
              </div>
 
              <!--details-->
              <div class="product-details">
-                 <a href="#" class="p-name"> Lookbook Johnny </a>
-                 <span class="p-price">₱449.00</span>
+                 <a href="#" class="p-name">"Worst-Behavior" Sweater</a>
+                 <span class="p-price">₱699.00</span>
              </div>
          </div>
 
@@ -333,13 +330,13 @@
              <a href="#" class="add-cart">
                  <i class="fas fa-shopping-cart"></i>
              </a>
-             <img src="images/k-8.png" />
+             <img src="images/w-8.png" />
              </div>
 
              <!--details-->
              <div class="product-details">
-                 <a href="#" class="p-name">Robot Jersey Tee</a>
-                 <span class="p-price">₱499.00</span>
+                 <a href="#" class="p-name">Women Casual Shirt</a>
+                 <span class="p-price">₱599.00</span>
              </div>
          </div>
 
@@ -353,13 +350,13 @@
              <a href="#" class="add-cart">
                  <i class="fas fa-shopping-cart"></i>
              </a>
-             <img src="images/k-9.png" />
+             <img src="images/w-9.png" />
              </div>
 
              <!--details-->
              <div class="product-details">
-                 <a href="#" class="p-name">Trendy Kids Outfit</a>
-                 <span class="p-price">₱599.00</span>
+                 <a href="#" class="p-name">The Women Who stole ..</a>
+                 <span class="p-price">₱499.00</span>
              </div>
          </div>
 
@@ -373,13 +370,13 @@
              <a href="#" class="add-cart">
                  <i class="fas fa-shopping-cart"></i>
              </a>
-             <img src="images/k-10.png" />
+             <img src="images/w-10.png" />
              </div>
 
              <!--details-->
              <div class="product-details">
-                 <a href="#" class="p-name">Trims Jogger Trousers</a>
-                 <span class="p-price">₱649.00</span>
+                 <a href="#" class="p-name">The Hernandez Jumpsuit</a>
+                 <span class="p-price">₱599.00</span>
              </div>
          </div>
 
@@ -393,13 +390,13 @@
              <a href="#" class="add-cart">
                  <i class="fas fa-shopping-cart"></i>
              </a>
-             <img src="images/k-11.png" />
+             <img src="images/w-11.png" />
              </div>
 
              <!--details-->
              <div class="product-details">
-                 <a href="#" class="p-name">2 Piece Bear Pull...</a>
-                 <span class="p-price">₱699.00</span>
+                 <a href="#" class="p-name">Oversize "Mt. Fuji" Tee</a>
+                 <span class="p-price">₱399.00</span>
              </div>
          </div>
 
@@ -413,12 +410,12 @@
              <a href="#" class="add-cart">
                  <i class="fas fa-shopping-cart"></i>
              </a>
-             <img src="images/k-12.png" />
+             <img src="images/w-12.png" />
              </div>
 
              <!--details-->
              <div class="product-details">
-                 <a href="#" class="p-name">B L A K C Apparel</a>
+                 <a href="#" class="p-name">Arlo High Rise ....</a>
                  <span class="p-price">₱599.00</span>
              </div>
          </div>
@@ -432,13 +429,13 @@
             <a href="#" class="add-cart">
                 <i class="fas fa-shopping-cart"></i>
             </a>
-            <img src="images/k-13.png" />
+            <img src="images/w-13.png" />
             </div>
 
             <!--details-->
             <div class="product-details">
-                <a href="#" class="p-name">BocaJeans</a>
-                <span class="p-price">₱699.00</span>
+                <a href="#" class="p-name">Blue Polka Dot Strap ..</a>
+                <span class="p-price">₱499.00</span>
             </div>
         </div>
 
@@ -451,13 +448,13 @@
             <a href="#" class="add-cart">
                 <i class="fas fa-shopping-cart"></i>
             </a>
-            <img src="images/k-14.png" />
+            <img src="images/w-14.png" />
             </div>
 
             <!--details-->
             <div class="product-details">
-                <a href="#" class="p-name">Button-Down Denim</a>
-                <span class="p-price">₱499.00</span>
+                <a href="#" class="p-name">Personalized "Mom" Tee</a>
+                <span class="p-price">₱399.00</span>
             </div>
         </div>
 
@@ -470,13 +467,13 @@
             <a href="#" class="add-cart">
                 <i class="fas fa-shopping-cart"></i>
             </a>
-            <img src="images/k-15.png" />
+            <img src="images/w-15.png" />
             </div>
 
             <!--details-->
             <div class="product-details">
-                <a href="#" class="p-name">Elastic Waist Grid</a>
-                <span class="p-price">₱649.00</span>
+                <a href="#" class="p-name">Trendy Mom Shirt Every ....</a>
+                <span class="p-price">₱359.00</span>
             </div>
         </div>
 
@@ -489,13 +486,13 @@
             <a href="#" class="add-cart">
                 <i class="fas fa-shopping-cart"></i>
             </a>
-            <img src="images/k-16.png" />
+            <img src="images/w-16.png" />
             </div>
 
             <!--details-->
             <div class="product-details">
-                <a href="#" class="p-name">Girl's Lip and Let..</a>
-                <span class="p-price">₱399.00</span>
+                <a href="#" class="p-name">Holiday Outfit Inspo...</a>
+                <span class="p-price">₱699.00</span>
             </div>
         </div>
 
@@ -508,13 +505,13 @@
             <a href="#" class="add-cart">
                 <i class="fas fa-shopping-cart"></i>
             </a>
-            <img src="images/k-17.png" />
+            <img src="images/w-17.png" />
             </div>
 
             <!--details-->
             <div class="product-details">
-                <a href="#" class="p-name">Striped Print Top</a>
-                <span class="p-price">₱449.00</span>
+                <a href="#" class="p-name">Fortune Cross-back Body</a>
+                <span class="p-price">₱599.00</span>
             </div>
         </div>
 
@@ -527,12 +524,12 @@
             <a href="#" class="add-cart">
                 <i class="fas fa-shopping-cart"></i>
             </a>
-            <img src="images/k-18.png" />
+            <img src="images/w-18.png" />
             </div>
 
             <!--details-->
             <div class="product-details">
-                <a href="#" class="p-name">Half Zip Placket</a>
+                <a href="#" class="p-name">Terno Blue Denim Outfit</a>
                 <span class="p-price">₱499.00</span>
             </div>
         </div>
@@ -546,13 +543,13 @@
             <a href="#" class="add-cart">
                 <i class="fas fa-shopping-cart"></i>
             </a>
-            <img src="images/k-19.png" />
+            <img src="images/w-19.png" />
             </div>
 
             <!--details-->
             <div class="product-details">
-                <a href="#" class="p-name">Lace Dobby Dress</a>
-                <span class="p-price">₱599.00</span>
+                <a href="#" class="p-name">90's Highschool Inspired</a>
+                <span class="p-price">₱499.00</span>
             </div>
         </div>
 
@@ -565,13 +562,13 @@
             <a href="#" class="add-cart">
                 <i class="fas fa-shopping-cart"></i>
             </a>
-            <img src="images/k-20.png" />
+            <img src="images/w-20.png" />
             </div>
 
             <!--details-->
             <div class="product-details">
-                <a href="#" class="p-name">Baby Doll Toy Dress</a>
-                <span class="p-price">₱459.00</span>
+                <a href="#" class="p-name">High Waisted Vintage</a>
+                <span class="p-price">₱599.00</span>
             </div>
         </div>
 
@@ -584,13 +581,13 @@
             <a href="#" class="add-cart">
                 <i class="fas fa-shopping-cart"></i>
             </a>
-            <img src="images/k-21.png" />
+            <img src="images/w-21.png" />
             </div>
 
             <!--details-->
             <div class="product-details">
-                <a href="#" class="p-name">Forever21</a>
-                <span class="p-price">₱599.00</span>
+                <a href="#" class="p-name">Sweater For Women</a>
+                <span class="p-price">₱699.00</span>
             </div>
         </div>
 
@@ -603,13 +600,13 @@
             <a href="#" class="add-cart">
                 <i class="fas fa-shopping-cart"></i>
             </a>
-            <img src="images/k-22.png" />
+            <img src="images/w-22.png" />
             </div>
 
             <!--details-->
             <div class="product-details">
-                <a href="#" class="p-name">Dsquared2</a>
-                <span class="p-price">₱699.00</span>
+                <a href="#" class="p-name">High-waist Blue Pants</a>
+                <span class="p-price">₱499.00</span>
             </div>
         </div>
 
@@ -622,12 +619,12 @@
             <a href="#" class="add-cart">
                 <i class="fas fa-shopping-cart"></i>
             </a>
-            <img src="images/k-23.png" />
+            <img src="images/w-23.png" />
             </div>
 
             <!--details-->
             <div class="product-details">
-                <a href="#" class="p-name">Cortes de Cabelo</a>
+                <a href="#" class="p-name">Temperament Blue Dress</a>
                 <span class="p-price">₱599.00</span>
             </div>
         </div>
@@ -641,13 +638,13 @@
             <a href="#" class="add-cart">
                 <i class="fas fa-shopping-cart"></i>
             </a>
-            <img src="images/k-24.png" />
+            <img src="images/w-24.png" />
             </div>
 
             <!--details-->
             <div class="product-details">
-                <a href="#" class="p-name">Rib-Knit Bardot</a>
-                <span class="p-price">₱499.00</span>
+                <a href="#" class="p-name">Button-Front Belted ...</a>
+                <span class="p-price">₱599.00</span>
             </div>
         </div>
 

@@ -2,9 +2,10 @@
 <html>
     <head>
     <meta charset="utf-8">
-    <title>Shopparel - Jackets</title>
+    <title>Shopparel - Product Details</title>
     <!---stylesheet-->
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
+   
     <!--light-slider-css-->
     <link rel="stylesheet" type="text/css" href="css/lightslider.css"/>
     <!--jQuery-->
@@ -37,14 +38,14 @@
             </a>
             <!--menu-->
             <ul class="menu">
-                <li><a href="index.html">Trends</a>
+                <li><a href="index.php">Trends</a>
                      <!--sale-lable-->
                      <span class ="sale-lable">Sale</span>
                 </li>
                
-                <li><a href="men.html">Men</a></li>
-                <li><a href="women.html">Women</a></li>
-                <li><a href="kids.html">Kids</a></li>
+                <li><a href="men.php">Men</a></li>
+                <li><a href="women.php">Women</a></li>
+                <li><a href="kids.php">Kids</a></li>
             </ul>
 
             <!--right-menu-->
@@ -58,7 +59,7 @@
                     <i class="fas fa-user"></i>
                 </a>
                 <!--cart-icon-->
-                <a href="cart.html">
+                <a href="cart.php">
                     <i class="fas fa-shopping-cart">
                     <!--number-of-product-in-cart-->
                     <span class="num-cart-product">3</span>
@@ -126,131 +127,68 @@
            <a href="#" class="already-account">Already Have Account?</a>
            </div>
         </div>
+
+        </div>
        
 
+        <!-- Product Details -->
+  <section class="section product-detail">
+    <div class="details container">
+      <div class="left">
+        <div class="main">
+          <img src="images/j-6.png" alt="" />
         </div>
+      </div>
 
-        <!--Full-slider-->
-        <ul id="adaptive" class="cs-hidden">
+      <div class="right">
+       
+        <h2>Funny Patchwork Double Jacket</h2>
+        <div class="price">₱599.00</div>
+
+        <form>
+          <div>
+            <select>
+              <option value="Select Size" selected disabled>
+                Select Size
+              </option>
+              <option value="1">S</option>
+              <option value="2">M</option>
+              <option value="3">L</option>
+              <option value="4">XL</option>
+            </select>
+          </div>
+        </form>
+
+        <form class="form1">
+
+          <input type="text" placeholder="1" />
+          <a href="#" class="addCart">Add To Cart</a>
+        </form>
+        <h3>Product Detail</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero minima
+          delectus nulla voluptates nesciunt quidem laudantium, quisquam
+          voluptas facilis dicta in explicabo, laboriosam ipsam suscipit!
+        </p>
         
-            <!--box-1-->
-            <li class="item-a">
-                <!--box1-->
+        <form class="form2">
+          <p> <strong>   Hannah Clothing</strong></p>
+          <a href="#" class="visitShop">Visit Shop</a>
+        </form>
+       
+      </div>
 
-                <div>
-        
-                <div class="full-slider-box f-slide-1">
-                 <!--slider-text-container-->
-                <div class="slider-text-container">
-                <span></span>
-                </div>
-                </div>
 
-                </div>
-            </li>
-
-            <li class="item-a">
-                <!--box2-->
-                
-                <div>
-        
-                <div class="full-slider-box f-slide-2">
-                 <!--slider-text-container-->
-                <div class="slider-text-container">
-                <span></span>
-                </div>
-                </div>
-
-                </div>
-            </li>
-
-            <li class="item-a">
-                <!--box3-->
-                
-                <div>
-        
-                <div class="full-slider-box f-slide-3">
-                 <!--slider-text-container-->
-                <div class="slider-text-container">
-                <span></span>
-                </div>
-                </div>
-
-                </div>
-            </li>
-        </ul>
-
-        <!--Featured-Categories-->
-
-        <div class="feature-heading">
-            <h2>Featured Categories</h2>
-        </div>
-
-        <ul id="autoWidth" class="cs-hidden">
-            <!--box-1--------------------->
-            <li class="item">
-
-        <!--feature-box-->
-        <div class="feature-box">
-            <a href="feature-dresses.html">
-                <img src="images/feature-1.png" />
-            </a>
-        </div>
-
-        <!--text-->
-        <span>Dresses</span>
-            </li>
-
-              <!--box-2--------------------->
-            <li class="item">
-
-        <!--feature-box-->
-        <div class="feature-box">
-            <a href="feature-shirts.html">
-                <img src="images/feature-2.png" />
-            </a>
-        </div>
-        
-        <!--text-->
-        <span>Shirts</span>
-            </li>
-
-             <!--box-3--------------------->
-            <li class="item">
-
-        <!--feature-box-->
-        <div class="feature-box">
-            <a href="feature-jackets.html">
-                <img src="images/feature-3.png" />
-            </a>
-        </div>
-        
-        <!--text-->
-        <span><u> Jackets </u></span>
-            </li>
-        
-             <!--box-4--------------------->
-             <li class="item">
-
-        <!--feature-box-->
-        <div class="feature-box">
-            <a href="feature-pants.html">
-                <img src="images/feature-4.png" />
-            </a>
-        </div>
-                
-        <!--text-->
-        <span>Pants</span>
-        </li>
-       </ul>
+    </div>
+  </section>
 
        <!--new-arrival-->
        <section class="new-arrival">
            <!--heading-->
 
            <div class="arrival-heading">
-               <strong>Jackets</strong>
-               <p>We Provide you New Design Fashion Clothes</p>
+               <strong>You May Also Like</strong>
+               
            </div>
 
 
@@ -266,13 +204,14 @@
                 <a href="#" class="add-cart">
                     <i class="fas fa-shopping-cart"></i>
                 </a>
-                <img src="images/j-1.png" />
+                <img src="images/p-1.png" />
                 </div>
 
                 <!--details-->
                 <div class="product-details">
-                    <a href="#" class="p-name">Leather Jacket Design</a>
-                    <span class="p-price">₱599.00</span>
+                    <a href="#" class="p-name">Topman Oversized 
+                        t-shirt</a>
+                    <span class="p-price">₱299.00</span>
                 </div>
             </div>
 
@@ -286,13 +225,13 @@
                 <a href="#" class="add-cart">
                     <i class="fas fa-shopping-cart"></i>
                 </a>
-                <img src="images/j-2.png" />
+                <img src="images/p-2.png" />
                 </div>
 
                 <!--details-->
                 <div class="product-details">
-                    <a href="#" class="p-name">Korean Style Jacket</a>
-                    <span class="p-price">₱799.00</span>
+                    <a href="#" class="p-name">Basic Tee for Kids</a>
+                    <span class="p-price">₱189.00</span>
                 </div>
             </div>
 
@@ -306,13 +245,13 @@
                 <a href="#" class="add-cart">
                     <i class="fas fa-shopping-cart"></i>
                 </a>
-                <img src="images/j-3.png" />
+                <img src="images/p-3.png" />
                 </div>
 
                 <!--details-->
                 <div class="product-details">
-                    <a href="#" class="p-name">Designer Jacket</a>
-                    <span class="p-price">₱849.00</span>
+                    <a href="#" class="p-name">Baby Plum Tee</a>
+                    <span class="p-price">₱220.00</span>
                 </div>
             </div>
 
@@ -326,13 +265,13 @@
                 <a href="#" class="add-cart">
                     <i class="fas fa-shopping-cart"></i>
                 </a>
-                <img src="images/j-4.png" />
+                <img src="images/p-4.png" />
                 </div>
 
                 <!--details-->
                 <div class="product-details">
-                    <a href="#" class="p-name">Green Army Dress Jacket</a>
-                    <span class="p-price">₱599.00</span>
+                    <a href="#" class="p-name">Hooded Bomber Jacket</a>
+                    <span class="p-price">₱899.00</span>
                 </div>
             </div>
 
@@ -346,13 +285,13 @@
                 <a href="#" class="add-cart">
                     <i class="fas fa-shopping-cart"></i>
                 </a>
-                <img src="images/j-5.png" />
+                <img src="images/p-5.png" />
                 </div>
 
                 <!--details-->
                 <div class="product-details">
-                    <a href="#" class="p-name">Waterproof Grey Jacket</a>
-                    <span class="p-price">₱390.00</span>
+                    <a href="#" class="p-name">Hourglass flare Jeans</a>
+                    <span class="p-price">₱799.00</span>
                 </div>
             </div>
 
@@ -366,13 +305,13 @@
                 <a href="#" class="add-cart">
                     <i class="fas fa-shopping-cart"></i>
                 </a>
-                <img src="images/j-6.png" />
+                <img src="images/p-6.png" />
                 </div>
 
                 <!--details-->
                 <div class="product-details">
-                    <a href="#" class="p-name">Funny Patchwork Double Jacket</a>
-                    <span class="p-price">₱599.00</span>
+                    <a href="#" class="p-name">Floral Sleeve Shirt</a>
+                    <span class="p-price">₱399.00</span>
                 </div>
             </div>
 
@@ -386,13 +325,13 @@
                 <a href="#" class="add-cart">
                     <i class="fas fa-shopping-cart"></i>
                 </a>
-                <img src="images/j-7.png" />
+                <img src="images/p-7.png" />
                 </div>
 
                 <!--details-->
                 <div class="product-details">
-                    <a href="#" class="p-name">Faux Twinset Hoodie</a>
-                    <span class="p-price">₱699.00</span>
+                    <a href="#" class="p-name">Flippy Mini Dress</a>
+                    <span class="p-price">₱499.00</span>
                 </div>
             </div>
 
@@ -405,229 +344,61 @@
                 <a href="#" class="add-cart">
                     <i class="fas fa-shopping-cart"></i>
                 </a>
-                <img src="images/j-8.png" />
+                <img src="images/p-8.png" />
                 </div>
 
                 <!--details-->
                 <div class="product-details">
-                    <a href="#" class="p-name">Patchwork Hoodie</a>
-                    <span class="p-price">₱969.00</span>
-                </div>
-            </div>
-
-
-            <!--product-box-9-->
-            <div class="product-box">
-
-                <!--img-->
-                <div class="product-img">
-                     <!--add-cart-->
-                <a href="#" class="add-cart">
-                    <i class="fas fa-shopping-cart"></i>
-                </a>
-                <img src="images/j-9.png" />
-                </div>
-
-                <!--details-->
-                <div class="product-details">
-                    <a href="#" class="p-name">Suede Women's Jacket</a>
-                    <span class="p-price">₱699.00</span>
-                </div>
-            </div>
-
-
-            <!--product-box-10-->
-            <div class="product-box">
-
-                <!--img-->
-                <div class="product-img">
-                     <!--add-cart-->
-                <a href="#" class="add-cart">
-                    <i class="fas fa-shopping-cart"></i>
-                </a>
-                <img src="images/j-10.png" />
-                </div>
-
-                <!--details-->
-                <div class="product-details">
-                    <a href="#" class="p-name">Denim Jacket-Women</a>
-                    <span class="p-price">₱549.00</span>
-                </div>
-            </div>
-
-
-            <!--product-box-11-->
-            <div class="product-box">
-
-                <!--img-->
-                <div class="product-img">
-                     <!--add-cart-->
-                <a href="#" class="add-cart">
-                    <i class="fas fa-shopping-cart"></i>
-                </a>
-                <img src="images/j-11.png" />
-                </div>
-
-                <!--details-->
-                <div class="product-details">
-                    <a href="#" class="p-name">Everlane Mackinaw Jacket</a>
-                    <span class="p-price">₱499.00</span>
-                </div>
-            </div>
-
-
-            <!--product-box-12-->
-            <div class="product-box">
-
-                <!--img-->
-                <div class="product-img">
-                     <!--add-cart-->
-                <a href="#" class="add-cart">
-                    <i class="fas fa-shopping-cart"></i>
-                </a>
-                <img src="images/j-12.png" />
-                </div>
-
-                <!--details-->
-                <div class="product-details">
-                    <a href="#" class="p-name">One Shot Kamski Jacket</a>
-                    <span class="p-price">₱349.00</span>
+                    <a href="#" class="p-name">Cargo track Pants</a>
+                    <span class="p-price">₱999.00</span>
                 </div>
             </div>
         </div>
        </section>
 
+
         <!---sale------------------------------------>
-        <section class="sale">
-            <!--sale-box-1-------------------->
-            <div class="sale-box sale-1">
-                <img src="images/promo-1.png">
-                
-                <a href="#">
-                <div class="sale-text">
-                  <strong>Travel with your </br> desire OOTD</strong>
-                  <span>Sale off 25%</span>
-                </div></a>
             
-            </div>
-               <!--sale-box-2-------------------->
-            <div class="sale-box sale-1">
-              <img src="images/promo-2.png">
-              
-              <a href="#"><div class="sale-text">
-                <strong>Hello Summer Outfit</strong>
-                <span>Sale off 15%</span>
-              </div></a>
-          
-            </div>
-             <!--sale-box-3-------------------->
-             <div class="sale-box sale-1">
-              <img src="images/promo-3.png">
-              
-              <a href="#">
-              <div class="sale-text">
-                <strong>Denim Shade </br> From Head To Toe</strong>
-                <span>Sale off 10%</span>
-              </div></a>
-          
-            </div>
-         
-        </section>
-
-
-          <!--feature-items-->
-       <section class="new-arrival">
-        <!--heading-->
-
-        <div class="arrival-heading">
-            <strong>Popular</strong>
+     <section class="sale">
+        <!--sale-box-1-------------------->
+        <div class="sale-box sale-1">
+            <img src="images/men-1.png">
             
+            <a href="#">
+            <div class="sale-text">
+              <strong>Get TRENDY with Men's <br> oversized-shirts</strong>
+              <br>
+              <span>Shop Now!</span>
+            </div></a>
+        
         </div>
-
-
-     <!--product-container-->
-     <div class="product-container">
-
-         <!--product-box-1-->
-         <div class="product-box">
-
-             <!--img-->
-             <div class="product-img">
-                  <!--add-cart-->
-             <a href="#" class="add-cart">
-                 <i class="fas fa-shopping-cart"></i>
-             </a>
-             <img src="images/feature-a.png" />
-             </div>
-
-             <!--details-->
-             <div class="product-details">
-                 <a href="#" class="p-name">Oversized Cat Shirt</a>
-                 <span class="p-price">₱399.00</span>
-             </div>
-         </div>
-
-
-         <!--product-box-2-->
-         <div class="product-box">
-
-             <!--img-->
-             <div class="product-img">
-                  <!--add-cart-->
-             <a href="#" class="add-cart">
-                 <i class="fas fa-shopping-cart"></i>
-             </a>
-             <img src="images/feature-b.png" />
-             </div>
-
-             <!--details-->
-             <div class="product-details">
-                 <a href="#" class="p-name">Maxi Dress</a>
-                 <span class="p-price">₱799.00</span>
-             </div>
-         </div>
-
-
-         <!--product-box-3-->
-         <div class="product-box">
-
-             <!--img-->
-             <div class="product-img">
-                  <!--add-cart-->
-             <a href="#" class="add-cart">
-                 <i class="fas fa-shopping-cart"></i>
-             </a>
-             <img src="images/feature-c.png" />
-             </div>
-
-             <!--details-->
-             <div class="product-details">
-                 <a href="#" class="p-name">Kids Jacket</a>
-                 <span class="p-price">₱599.00</span>
-             </div>
-         </div>
+           <!--sale-box-2-------------------->
+        <div class="sale-box sale-1">
+          <img src="images/men-2.png">
+          
+          <a href="#"><div class="sale-text">
+            <strong>Feel the  Heat <br> and put your shades on</strong>
+            <br>
+            <span>Shop Now</span>
+          </div></a>
+      
+        </div>
+         <!--sale-box-3-------------------->
+         <div class="sale-box sale-1">
+          <img src="images/men-3.png">
+          
+          <a href="#">
+          <div class="sale-text">
+            <strong>Be <br> Presentable in this <br> Black Suits </strong>
+            <br>
+            <span>Shop Now</span>
+          </div></a>
+      
+        </div>
+     
+    </section>
 
         
-         <!--product-box-4-->
-         <div class="product-box">
-
-             <!--img-->
-             <div class="product-img">
-                  <!--add-cart-->
-             <a href="#" class="add-cart">
-                 <i class="fas fa-shopping-cart"></i>
-             </a>
-             <img src="images/p-4.png" />
-             </div>
-
-             <!--details-->
-             <div class="product-details">
-                 <a href="#" class="p-name">Hooded Bomber Jacket</a>
-                 <span class="p-price">₱899.00</span>
-             </div>
-         </div>
-     </div>
-     </section>
 
 
       <!--services------------------------->
@@ -653,13 +424,6 @@
         
     </section>
 
-    <!--banner-->
-    <div class="banner-box f-slide-3">
-        
-        <div class="banner-text-container">
-        </div>
-    
-    </div> 
 
 
 

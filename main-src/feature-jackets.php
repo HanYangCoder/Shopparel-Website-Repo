@@ -2,7 +2,7 @@
 <html>
     <head>
     <meta charset="utf-8">
-    <title>Shopparel - Shirts</title>
+    <title>Shopparel - Jackets</title>
     <!---stylesheet-->
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <!--light-slider-css-->
@@ -37,14 +37,14 @@
             </a>
             <!--menu-->
             <ul class="menu">
-                <li><a href="index.html">Trends</a>
+                <li><a href="index.php">Trends</a>
                      <!--sale-lable-->
                      <span class ="sale-lable">Sale</span>
                 </li>
                
-                <li><a href="men.html">Men</a></li>
-                <li><a href="women.html">Women</a></li>
-                <li><a href="kids.html">Kids</a></li>
+                <li><a href="men.php">Men</a></li>
+                <li><a href="women.php">Women</a></li>
+                <li><a href="kids.php">Kids</a></li>
             </ul>
 
             <!--right-menu-->
@@ -58,7 +58,7 @@
                     <i class="fas fa-user"></i>
                 </a>
                 <!--cart-icon-->
-                <a href="cart.html">
+                <a href="cart.php">
                     <i class="fas fa-shopping-cart">
                     <!--number-of-product-in-cart-->
                     <span class="num-cart-product">3</span>
@@ -192,7 +192,7 @@
 
         <!--feature-box-->
         <div class="feature-box">
-            <a href="feature-dresses.html">
+            <a href="feature-dresses.php">
                 <img src="images/feature-1.png" />
             </a>
         </div>
@@ -206,13 +206,13 @@
 
         <!--feature-box-->
         <div class="feature-box">
-            <a href="feature-shirts.html">
+            <a href="feature-shirts.php">
                 <img src="images/feature-2.png" />
             </a>
         </div>
         
         <!--text-->
-        <span> <u> Shirts </u> </span>
+        <span>Shirts</span>
             </li>
 
              <!--box-3--------------------->
@@ -220,13 +220,13 @@
 
         <!--feature-box-->
         <div class="feature-box">
-            <a href="feature-jackets.html">
+            <a href="feature-jackets.php">
                 <img src="images/feature-3.png" />
             </a>
         </div>
         
         <!--text-->
-        <span>Jackets</span>
+        <span><u> Jackets </u></span>
             </li>
         
              <!--box-4--------------------->
@@ -234,7 +234,7 @@
 
         <!--feature-box-->
         <div class="feature-box">
-            <a href="feature-pants.html">
+            <a href="feature-pants.php">
                 <img src="images/feature-4.png" />
             </a>
         </div>
@@ -249,7 +249,7 @@
            <!--heading-->
 
            <div class="arrival-heading">
-               <strong>Shirts</strong>
+               <strong>Jackets</strong>
                <p>We Provide you New Design Fashion Clothes</p>
            </div>
 
@@ -266,12 +266,12 @@
                 <a href="#" class="add-cart">
                     <i class="fas fa-shopping-cart"></i>
                 </a>
-                <img src="images/s-1.png" />
+                <img src="images/j-1.png" />
                 </div>
 
                 <!--details-->
                 <div class="product-details">
-                    <a href="#" class="p-name">Red-dotted Long Sleeve</a>
+                    <a href="#" class="p-name">Leather Jacket Design</a>
                     <span class="p-price">₱599.00</span>
                 </div>
             </div>
@@ -286,12 +286,12 @@
                 <a href="#" class="add-cart">
                     <i class="fas fa-shopping-cart"></i>
                 </a>
-                <img src="images/s-2.png" />
+                <img src="images/j-2.png" />
                 </div>
 
                 <!--details-->
                 <div class="product-details">
-                    <a href="#" class="p-name">Black Symbian Suit</a>
+                    <a href="#" class="p-name">Korean Style Jacket</a>
                     <span class="p-price">₱799.00</span>
                 </div>
             </div>
@@ -306,13 +306,13 @@
                 <a href="#" class="add-cart">
                     <i class="fas fa-shopping-cart"></i>
                 </a>
-                <img src="images/m-24.png" />
+                <img src="images/j-3.png" />
                 </div>
 
                 <!--details-->
                 <div class="product-details">
-                    <a href="#" class="p-name">Stripe Long Sleeve</a>
-                    <span class="p-price">₱599.00</span>
+                    <a href="#" class="p-name">Designer Jacket</a>
+                    <span class="p-price">₱849.00</span>
                 </div>
             </div>
 
@@ -326,12 +326,12 @@
                 <a href="#" class="add-cart">
                     <i class="fas fa-shopping-cart"></i>
                 </a>
-                <img src="images/s-4.png" />
+                <img src="images/j-4.png" />
                 </div>
 
                 <!--details-->
                 <div class="product-details">
-                    <a href="#" class="p-name">Sraight-Line print sleeve</a>
+                    <a href="#" class="p-name">Green Army Dress Jacket</a>
                     <span class="p-price">₱599.00</span>
                 </div>
             </div>
@@ -346,13 +346,13 @@
                 <a href="#" class="add-cart">
                     <i class="fas fa-shopping-cart"></i>
                 </a>
-                <img src="images/s-5.png" />
+                <img src="images/j-5.png" />
                 </div>
 
                 <!--details-->
                 <div class="product-details">
-                    <a href="#" class="p-name">Dotted Semi-Fit Long Sleeve</a>
-                    <span class="p-price">₱399.00</span>
+                    <a href="#" class="p-name">Waterproof Grey Jacket</a>
+                    <span class="p-price">₱390.00</span>
                 </div>
             </div>
 
@@ -366,13 +366,13 @@
                 <a href="#" class="add-cart">
                     <i class="fas fa-shopping-cart"></i>
                 </a>
-                <img src="images/m-21.png" />
+                <img src="images/j-6.png" />
                 </div>
 
                 <!--details-->
                 <div class="product-details">
-                    <a href="#" class="p-name">Stylish Blue Polo</a>
-                    <span class="p-price">₱399.00</span>
+                    <a href="#" class="p-name">Funny Patchwork Double Jacket</a>
+                    <span class="p-price">₱599.00</span>
                 </div>
             </div>
 
@@ -386,13 +386,13 @@
                 <a href="#" class="add-cart">
                     <i class="fas fa-shopping-cart"></i>
                 </a>
-                <img src="images/s-7.png" />
+                <img src="images/j-7.png" />
                 </div>
 
                 <!--details-->
                 <div class="product-details">
-                    <a href="#" class="p-name">Semi-fit Shirt</a>
-                    <span class="p-price">₱299.00</span>
+                    <a href="#" class="p-name">Faux Twinset Hoodie</a>
+                    <span class="p-price">₱699.00</span>
                 </div>
             </div>
 
@@ -405,13 +405,13 @@
                 <a href="#" class="add-cart">
                     <i class="fas fa-shopping-cart"></i>
                 </a>
-                <img src="images/s-8.png" />
+                <img src="images/j-8.png" />
                 </div>
 
                 <!--details-->
                 <div class="product-details">
-                    <a href="#" class="p-name">Stylized Oversized T-shirt</a>
-                    <span class="p-price">₱299.00</span>
+                    <a href="#" class="p-name">Patchwork Hoodie</a>
+                    <span class="p-price">₱969.00</span>
                 </div>
             </div>
 
@@ -425,13 +425,13 @@
                 <a href="#" class="add-cart">
                     <i class="fas fa-shopping-cart"></i>
                 </a>
-                <img src="images/s-9.png" />
+                <img src="images/j-9.png" />
                 </div>
 
                 <!--details-->
                 <div class="product-details">
-                    <a href="#" class="p-name">Oversized Gray Shirt</a>
-                    <span class="p-price">₱399.00</span>
+                    <a href="#" class="p-name">Suede Women's Jacket</a>
+                    <span class="p-price">₱699.00</span>
                 </div>
             </div>
 
@@ -445,13 +445,13 @@
                 <a href="#" class="add-cart">
                     <i class="fas fa-shopping-cart"></i>
                 </a>
-                <img src="images/s-10.png" />
+                <img src="images/j-10.png" />
                 </div>
 
                 <!--details-->
                 <div class="product-details">
-                    <a href="#" class="p-name">Stripped Red-White Shirt</a>
-                    <span class="p-price">₱299.00</span>
+                    <a href="#" class="p-name">Denim Jacket-Women</a>
+                    <span class="p-price">₱549.00</span>
                 </div>
             </div>
 
@@ -465,12 +465,12 @@
                 <a href="#" class="add-cart">
                     <i class="fas fa-shopping-cart"></i>
                 </a>
-                <img src="images/s-11.png" />
+                <img src="images/j-11.png" />
                 </div>
 
                 <!--details-->
                 <div class="product-details">
-                    <a href="#" class="p-name">Asymmetrical Black/Striped Shirt</a>
+                    <a href="#" class="p-name">Everlane Mackinaw Jacket</a>
                     <span class="p-price">₱499.00</span>
                 </div>
             </div>
@@ -485,13 +485,13 @@
                 <a href="#" class="add-cart">
                     <i class="fas fa-shopping-cart"></i>
                 </a>
-                <img src="images/s-12.png" />
+                <img src="images/j-12.png" />
                 </div>
 
                 <!--details-->
                 <div class="product-details">
-                    <a href="#" class="p-name">Black 3/4 Shirt</a>
-                    <span class="p-price">₱449.00</span>
+                    <a href="#" class="p-name">One Shot Kamski Jacket</a>
+                    <span class="p-price">₱349.00</span>
                 </div>
             </div>
         </div>

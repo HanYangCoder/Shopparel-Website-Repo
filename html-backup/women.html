@@ -36,14 +36,14 @@
             </a>
             <!--menu-->
             <ul class="menu">
-                <li><a href="index.html">Trends</a>
+                <li><a href="index.php">Trends</a>
                      <!--sale-lable-->
                      <span class ="sale-lable">Sale</span>
                 </li>
                
-                <li><a href="men.html">Men</a></li>
-                <li><a href="women.html">Women</a></li>
-                <li><a href="kids.html">Kids</a></li>
+                <li><a href="men.php">Men</a></li>
+                <li><a href="women.php">Women</a></li>
+                <li><a href="kids.php">Kids</a></li>
             </ul>
 
             <!--right-menu-->
@@ -57,7 +57,7 @@
                     <i class="fas fa-user"></i>
                 </a>
                 <!--cart-icon-->
-                <a href="cart.html">
+                <a href="cart.php">
                     <i class="fas fa-shopping-cart">
                     <!--number-of-product-in-cart-->
                     <span class="num-cart-product">3</span>

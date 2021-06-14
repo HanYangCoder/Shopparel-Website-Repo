@@ -2,9 +2,10 @@
 <html>
     <head>
     <meta charset="utf-8">
-    <title>User - Shopparel</title>
+    <title>Cart- Shopparel</title>
     <!---stylesheet-->
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  
     <!--light-slider-css-->
     <link rel="stylesheet" type="text/css" href="css/lightslider.css"/>
     <!--jQuery-->
@@ -37,14 +38,14 @@
             </a>
             <!--menu-->
             <ul class="menu">
-                <li><a href="index.html">Trends</a>
+                <li><a href="index.php">Trends</a>
                      <!--sale-lable-->
                      <span class ="sale-lable">Sale</span>
                 </li>
                
-                <li><a href="men.html">Men</a></li>
-                <li><a href="women.html">Women</a></li>
-                <li><a href="kids.html">Kids</a></li>
+                <li><a href="men.php">Men</a></li>
+                <li><a href="women.php">Women</a></li>
+                <li><a href="kids.php">Kids</a></li>
             </ul>
 
             <!--right-menu-->
@@ -58,7 +59,7 @@
                     <i class="fas fa-user"></i>
                 </a>
                 <!--cart-icon-->
-                <a href="cart.html">
+                <a href="cart.php">
                     <i class="fas fa-shopping-cart">
                     <!--number-of-product-in-cart-->
                     <span class="num-cart-product">3</span>
@@ -127,138 +128,106 @@
            </div>
         </div>
         </div>
-
-        <!--Profile-Heading-->
-
-        <div class="profile-heading">
-            <strong>My Profile</strong>
-            <p>PERSONAL DETAILS</p>
-        </div>
-
-        <!--Personal-Details-->
-
-        <div class="personal-details">
-
-            <div class="personal-content">
         
-              <div class="personal-section about">
-                <a href="#">
-                    <img src="images/user-profile.png" />
-                </a>
 
+
+    <!-- Cart Items -->
+    <div class="cart">
+      <table>
+        <tr>
+          <th><h3>Product</h3></th>
+          <th><h3>Quantitiy</h3></th>
+          <th><h3>Subtotal</h3></th>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/pp-1.png" alt="" />
+              <div>
+                <p>Jayden Skinny Pants</p>
+                <span>Price: ₱ 799.00</span>
+                <br />
+                <a href="#">Remove</a>
               </div>
-        
-              <div class="personal-section info">
-              
-        
-                <ul>
-                    <li>Name:</li>
-                    <li>Email Address:</li>
-                    <li>Birthday:</li>
-                    <li>Address:</li>
-                    <li>Contact Number:</li>
-                    <br>
-                    <li>Password:</li>
-
-                </ul>
-              </div>
-        
-              <div class="personal-section links">
-
-                <ul>
-                  <a href="#">
-                    <li>Alex Ward</li>
-                  </a>
-                  <a href="#">
-                    <li>alexxward@gmail.com</li>
-                  </a>
-                  <a href="#">
-                    <li>October 8, 1997</li>
-                  </a>
-                  <a href="#">
-                    <li>California, USA</li>
-                  </a>
-                  <a href="#">
-                    <li>(800) 73*-**45</li>
-                  </a>
-                  <br>
-                  <a href="#">
-                    <li><strong>CHANGE PASSWORD</strong></li>
-                  </a>
-                </ul>
-              </div>
-
-          </div> 
-        </div>
-        
-         <!--orders-and-Tracking-->
-
-         <div class="profile-heading">
-            <strong>Orders and Tracking</strong>
-        </div>
-
-        <div class="order-details">
-
-            <div class="order-content">
-
-              <div class="order-section links">
-                <h2>Order No.</h2>
-                <ul>
-                </ul>
-              </div>
-        
-              <div class="order-section links">
-                <h2>Order Date</h2>
-                <ul> 
-                </ul>
-              </div>
-
-              <div class="order-section links">
-                <h2>Order Details</h2>
-                <ul>     
-                </ul>
-              </div>
-              
-             
-
-          </div> 
-        </div>
-        
-
-
-         <!--Change-and-Return-->
-
-         <div class="profile-heading">
-            <strong>Change and Return</strong>
-            <p >WANT TO RETURN AN ITEM?</p>
-        </div>
-        <div class="arrival-heading">
-            <p>Returning an item is easy through our online return form.  Just to ensure that your item fulfills the conditions below and is not in the Non- Exchangeable & Non-Refundable Items </p>
-        </div>
-        <section class="services1">
-            <!--services-box---------->
-            <div class="sample-box">
-                <i class="fas fa-calendar-day"></i>
-                <p>Within 30 Days of receipt</p>
-                
             </div>
-            <!--services-box---------->
-            <div class="sample-box">
-                <i class="fas fa-receipt"></i>
-                <p>Invoice enclosed</p>
-                
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>₱ 799.00</td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/k-4.png" alt="" />
+              <div>
+                <p>Kids Boy Fashion</p>
+                <span>Price: ₱ 599.00</span>
+                <br />
+                <a href="#">Remove</a>
+              </div>
             </div>
-            <!--services-box---------->
-            <div class="sample-box">
-                <i class="fas fa-box"></i>
-                <p>Original brand packaging</p>
-               
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>₱ 599.00</td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="./images/w-6.png" alt="" />
+              <div>
+                <p>Rita Yosemite Tee</p>
+                <span>Price: ₱ 399.00</span>
+                <br />
+                <a href="#">Remove</a>
+              </div>
             </div>
-            
-        </section>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>₱ 399.00</td>
+        </tr>
+
+     
+
+      </table>
+
+      <div class="total-price">
+        <table>
+          <tr>
+            <td>Subtotal</td>
+            <td>₱ 1,797</td>
+          </tr>
+        </table>
+        <a href="cart-checkout.php" class="checkout btn">Proceed To Checkout</a>
+      </div>
+    </div>
 
 
-       
+      <!--services------------------------->
+    <section class="services">
+        <!--services-box---------->
+        <div class="services-box">
+            <i class="fas fa-shipping-fast"></i>
+            <span>Fast Delivery</span>
+            <p>Receive your Order within 5-7 days  </p>
+        </div>
+        <!--services-box---------->
+        <div class="services-box">
+            <i class="fas fa-headphones-alt"></i>
+            <span>Support 24/7</span>
+            <p>We support 24h a day</p>
+        </div>
+        <!--services-box---------->
+        <div class="services-box">
+            <i class="fas fa-sync"></i>
+            <span>100% Money Back</span>
+            <p>You have 30 days to Return</p>
+        </div>
+        
+    </section>
+
+
     <!--footer---------------------------->
    
     <div class="footer">

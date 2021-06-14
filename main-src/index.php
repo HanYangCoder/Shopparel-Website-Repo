@@ -37,14 +37,14 @@
             </a>
             <!--menu-->
             <ul class="menu">
-                <li><a href="index.html">Trends</a>
+                <li><a href="index.php">Trends</a>
                      <!--sale-lable-->
                      <span class ="sale-lable">Sale</span>
                 </li>
                
-                <li><a href="men.html">Men</a></li>
-                <li><a href="women.html">Women</a></li>
-                <li><a href="kids.html">Kids</a></li>
+                <li><a href="men.php">Men</a></li>
+                <li><a href="women.php">Women</a></li>
+                <li><a href="kids.php">Kids</a></li>
             </ul>
 
             <!--right-menu-->
@@ -58,7 +58,7 @@
                     <i class="fas fa-user"></i>
                 </a>
                 <!--cart-icon-->
-                <a href="cart.html">
+                <a href="cart.php">
                     <i class="fas fa-shopping-cart">
                     <!--number-of-product-in-cart-->
                     <span class="num-cart-product">3</span>
@@ -192,7 +192,7 @@
 
         <!--feature-box-->
         <div class="feature-box">
-            <a href="feature-dresses.html">
+            <a href="feature-dresses.php">
                 <img src="images/feature-1.png" />
             </a>
         </div>
@@ -206,7 +206,7 @@
 
         <!--feature-box-->
         <div class="feature-box">
-            <a href="feature-shirts.html">
+            <a href="feature-shirts.php">
                 <img src="images/feature-2.png" />
             </a>
         </div>
@@ -220,7 +220,7 @@
 
         <!--feature-box-->
         <div class="feature-box">
-            <a href="feature-jackets.html">
+            <a href="feature-jackets.php">
                 <img src="images/feature-3.png" />
             </a>
         </div>

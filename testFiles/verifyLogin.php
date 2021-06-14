@@ -1,10 +1,11 @@
 <?php
     require ("db_connection.php");
-    $username = $_GET['username'];  // passed from index.php
+    $userID = $_GET['userID'];  // passed from index.php
     $password = $_GET['password'];  // also passed from index.php
 
+    // changed username to userID because we'll be using numbers
     // userDB is table of users from the main shopping database
-    $usersql = $conn->prepare ("Select * from userDB where userID = '$username' AND password = '$password'");
+    $usersql = $conn->prepare ("Select * from userDB where userID = '$userID' AND password = '$password'");
     $usersql->execute();
 
     if($user = $usersql->fetch()) {
@@ -12,23 +13,23 @@
         $id = $user['userID'];
         echo"
             <script>
-                alert ('WELCOME FELLOW SHOPPER!');
+                alert ('WELCOME VALUED SHOPPER!');
             </script>
         ";
 
-        header ("Location: home.php");
+        header ("Location: main-src/index.php");
     }
     
     else{
         echo"
             <script>
-                alert ('INVALID USER');
+                alert ('Invalid username or password, please try again.');
             </script>
         ";
     
         echo"
             <script>
-                window.location.href = 'index.php';
+                window.location.href = 'main-src/index.php';
             </script>
         ";
       }

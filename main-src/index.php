@@ -91,12 +91,14 @@
             </a>
             <!--heading-->
             <strong>Log In</strong>
+
+            <!-- EDITED this part to redirect data to verifyLogin.php for authentication-->
             <!--inputs-->
-            <form>
-                <input type="email" name="email"  placeholder="Example@gmail.com"  required/>
-                <input type="password" name="password" placeholder="Password" required/>
+            <form name="login_old_member" action="verifyLogin.php" method="GET">
+                <input type="text" id="userID" name="userID"  placeholder="Enter User ID"  required="true"/>
+                <input type="password" id="password" name="password" placeholder="Enter Password" required="true"/>
                 <!--submit-btn-->
-                <input type="submit" value="Log In"/>
+                <input type="submit" id="submit" value="Log In"/>
             </form>
            <!--forget-and-sign-up-btn-->
            <div class="form-btns">

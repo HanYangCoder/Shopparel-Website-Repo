@@ -1,3 +1,5 @@
+<?php session_start()?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -83,6 +85,7 @@
 
         <!--login-and-sign-up-->
         <div class="form">
+        <!--EDITED to by pass login when there is still a session-->
         <!--login--> 
         <div class="login-form">  
             <!--cancel-btn-->

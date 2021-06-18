@@ -1,4 +1,6 @@
 <?php
+    session_start();
+
     require ("db_connection.php");
     $userID = $_GET['userID'];  // passed from index.php
     $password = $_GET['password'];  // also passed from index.php
@@ -17,6 +19,13 @@
             </script>
         ";
 
+        // insert a session set here using userID after user has been verified
+        $_SESSION["userID"] = $id;
+
+        // echo "Session variables set.\n";
+
+        // print_r($_SESSION);
+        // uncomment this header later to redirect back to index.php
         header ("Location: index.php");
         // echo "User exists";
     }

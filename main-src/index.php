@@ -55,10 +55,18 @@
                 <a href="#" class ="search">
                     <i class="fas fa-search"></i>
                 </a>
-                <!--user-->
+
+                <!--user EDITED to use sessions to keep user logged in-->
+                <?php if (isset($_SESSION["userID"])): ?>
+                <a href="user-profile.php" class="user">
+                    <i class="fas fa-user"></i>
+                </a>
+                <?php else: ?>
                 <a href="#" class="user">
                     <i class="fas fa-user"></i>
                 </a>
+                <?php endif; ?>
+
                 <!--cart-icon-->
                 <a href="cart.php">
                     <i class="fas fa-shopping-cart">

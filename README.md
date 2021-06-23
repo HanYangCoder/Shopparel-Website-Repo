@@ -37,7 +37,7 @@ Note: PK = Primary Key and FK = Foreign Key
 
 Databases and columns:
 1. UserDB `(userID (PK), firstName, lastName, password, contactNumber, email, address, userType (Buyer/Seller))`
-2. ProductsDB `(productID (PK), productName, price, stock, category, productDescription, userID (FK))`
+2. ProductsDB `(productID (PK), productName, imageCode, price, category, userID (FK))`
 3. AdminDB `(adminID (PK), firstName, lastName, contactNumber, email, address)`
 4. ShoppingCartDB `(itemID (PK), userID (FK), productID (FK), price, amount, partialSummary)`
 5. SalesListDB `(soldItemCode (PK), invoiceNumber, productID (FK), amount, price, totalPurchasePrice, userID - Buyer (FK), userID - Seller (FK))`

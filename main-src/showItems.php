@@ -10,14 +10,19 @@
         
     // }
 
-    function showItemsInCategory(/*$numberOfRows, $category*/){
-        
+    function showItemsInCategory($category){
+        $test = "This is a variable";
         // $conn undefined variable, search results point to variable not
         // in scope, will look more into it later
-        // global $conn;
-        // $showProductsDbSql = $conn->prepare ("Select * from productsDB WHERE category = '$category';");
-        // $showProductsDbSql->execute();
-        // $showProductsDb = $showProductsDbSql->fetchAll();
+        global $conn;
+        $showProductsDbSql = $conn->prepare ("Select * from productsDB WHERE category = '$category';");
+        $showProductsDbSql->execute();
+        $showProductsDb = $showProductsDbSql->fetchAll();
+
+        // for($x=0; $x<10; $x++)
+        // {
+            
+        // }
 
         /**
          * Used PHP heredoc here to try and use this 
@@ -30,9 +35,15 @@
          * but haven't applied it yet, will try on men2.php
          * using men.php code as proof of concept
          */
-        echo <<<HTML
+
+        for($x=0; $x<10; $x++)
+        {
+            echo <<<HTML
             <h1>HEREDOC TEST WORKS</h1>
+            $test
         HTML;
+        }
+        
         //return "Hello world";
     }
 

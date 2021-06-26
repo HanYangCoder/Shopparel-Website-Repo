@@ -10,7 +10,7 @@
 
     <body>
     <?php //echo "Hello there!"
-        showItemsInCategory();
+        showItemsInCategory('mens');
     ?>
     </body>
 </html>

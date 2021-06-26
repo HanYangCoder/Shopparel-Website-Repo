@@ -2,27 +2,14 @@
     session_start();
     require('db_connection.php');
 
-    // $category = "";
-    // $numberOfRows;
-    
-    // if($category != "")
-    // {
-        
-    // }
-
     function showItemsInCategory($category){
         $test = "This is a variable";
-        // $conn undefined variable, search results point to variable not
-        // in scope, will look more into it later
+        
+        // set $conn to global to be recognized as connection to database
         global $conn;
         $showProductsDbSql = $conn->prepare ("Select * from productsDB WHERE category = '$category';");
         $showProductsDbSql->execute();
         $showProductsDb = $showProductsDbSql->fetchAll();
-
-        // for($x=0; $x<10; $x++)
-        // {
-            
-        // }
 
         /**
          * Used PHP heredoc here to try and use this 
@@ -36,15 +23,36 @@
          * using men.php code as proof of concept
          */
 
-        for($x=0; $x<10; $x++)
-        {
+        foreach($showProductsDb as $productsList):
+
+            // currently selected product variables
+            $productName = $productsList['productName'];
+            $imgLocation = "images/" . $productsList['imageCode'] . ".png";
+            $price = $productsList['price'];
+            $productDetailsRedirect = "product-details.php?id=" . $productsList['productID'];
+
             echo <<<HTML
-            <h1>HEREDOC TEST WORKS</h1>
-            $test
+            <!-- <h1>HEREDOC TEST WORKS</h1> -->
+            <div class="product-box">
+
+             <!--img-->
+             <div class="product-img">
+                  <!--add-cart-->
+             <a href=$productDetailsRedirect class="add-cart">
+                 <i class="fas fa-shopping-cart"></i>
+             </a>
+             <img src=$imgLocation />
+             </div>
+
+             <!--details-->
+             <div class="product-details">
+                 <a href=$productDetailsRedirect class="p-name">$productName</a>
+                 <span class="p-price">₱$price</span>
+             </div>
+            </div>
         HTML;
-        }
-        
-        //return "Hello world";
+
+        endforeach;
     }
 
 ?>

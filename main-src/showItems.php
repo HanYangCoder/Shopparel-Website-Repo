@@ -21,6 +21,9 @@
          * back to another php file where it was invoked
          * but haven't applied it yet, will try on men2.php
          * using men.php code as proof of concept
+         * 
+         * Code reusability worked on:
+         * index.php, men.php, women.php
          */
 
         foreach($showProductsDb as $productsList):

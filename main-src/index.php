@@ -250,7 +250,7 @@
 
         <!--feature-box-->
         <div class="feature-box">
-            <a href="#">
+            <a href="feature-pants.php">
                 <img src="images/feature-4.png" />
             </a>
         </div>

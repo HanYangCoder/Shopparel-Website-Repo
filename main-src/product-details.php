@@ -1,3 +1,30 @@
+<?php
+  session_start();
+  require('db_connection.php');
+  include 'showItems.php';
+
+  $productID = $_GET['id'];
+
+  $productsql = $conn->prepare ("Select * from productsDB where productID='$productID'");
+	$productsql->execute();
+	$productSelected = $productsql->fetch();
+
+  // get all other necessary product data
+  $productName = $productSelected['productName'];
+  $imageCode = "images/" . $productSelected['imageCode'] . ".png";
+  $price = $productSelected['price'];
+  $category = $productSelected['category'];
+  $sellerID = $productSelected['userID'];
+
+  // get seller name
+  $sellersql = $conn->prepare ("Select * from userDB where userID='$sellerID'");
+  $sellersql->execute();
+  $sellerInfo = $sellersql->fetch();
+
+  $sellerFullName = $sellerInfo['firstName'] . " " . $sellerInfo['lastName'];
+  echo $imageCode;
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -131,19 +158,19 @@
         </div>
        
 
-        <!-- Product Details -->
+        <!-- Product Details CHANGES CHANGES CHANGES CHANGES CHANGES CHANGES -->
   <section class="section product-detail">
     <div class="details container">
       <div class="left">
         <div class="main">
-          <img src="images/j-6.png" alt="" />
+          <img src="<?=$imageCode?>" alt="" />
         </div>
       </div>
 
       <div class="right">
        
-        <h2>Funny Patchwork Double Jacket</h2>
-        <div class="price">₱599.00</div>
+        <h2><?=$productName?></h2>
+        <div class="price">₱<?=$price?></div>
 
         <form>
           <div>
@@ -172,7 +199,7 @@
         </p>
         
         <form class="form2">
-          <p> <strong>   Hannah Clothing</strong></p>
+          <p> <strong>   <?=$sellerFullName?></strong></p>
           <a href="#" class="visitShop">Visit Shop</a>
         </form>
        
@@ -195,164 +222,8 @@
         <!--product-container-->
         <div class="product-container">
 
-            <!--product-box-1-->
-            <div class="product-box">
+        <?php showItemsInCategory($category);?>
 
-                <!--img-->
-                <div class="product-img">
-                     <!--add-cart-->
-                <a href="#" class="add-cart">
-                    <i class="fas fa-shopping-cart"></i>
-                </a>
-                <img src="images/p-1.png" />
-                </div>
-
-                <!--details-->
-                <div class="product-details">
-                    <a href="#" class="p-name">Topman Oversized 
-                        t-shirt</a>
-                    <span class="p-price">₱299.00</span>
-                </div>
-            </div>
-
-
-            <!--product-box-2-->
-            <div class="product-box">
-
-                <!--img-->
-                <div class="product-img">
-                     <!--add-cart-->
-                <a href="#" class="add-cart">
-                    <i class="fas fa-shopping-cart"></i>
-                </a>
-                <img src="images/p-2.png" />
-                </div>
-
-                <!--details-->
-                <div class="product-details">
-                    <a href="#" class="p-name">Basic Tee for Kids</a>
-                    <span class="p-price">₱189.00</span>
-                </div>
-            </div>
-
-
-            <!--product-box-3-->
-            <div class="product-box">
-
-                <!--img-->
-                <div class="product-img">
-                     <!--add-cart-->
-                <a href="#" class="add-cart">
-                    <i class="fas fa-shopping-cart"></i>
-                </a>
-                <img src="images/p-3.png" />
-                </div>
-
-                <!--details-->
-                <div class="product-details">
-                    <a href="#" class="p-name">Baby Plum Tee</a>
-                    <span class="p-price">₱220.00</span>
-                </div>
-            </div>
-
-
-            <!--product-box-4-->
-            <div class="product-box">
-
-                <!--img-->
-                <div class="product-img">
-                     <!--add-cart-->
-                <a href="#" class="add-cart">
-                    <i class="fas fa-shopping-cart"></i>
-                </a>
-                <img src="images/p-4.png" />
-                </div>
-
-                <!--details-->
-                <div class="product-details">
-                    <a href="#" class="p-name">Hooded Bomber Jacket</a>
-                    <span class="p-price">₱899.00</span>
-                </div>
-            </div>
-
-
-            <!--product-box-5-->
-            <div class="product-box">
-
-                <!--img-->
-                <div class="product-img">
-                     <!--add-cart-->
-                <a href="#" class="add-cart">
-                    <i class="fas fa-shopping-cart"></i>
-                </a>
-                <img src="images/p-5.png" />
-                </div>
-
-                <!--details-->
-                <div class="product-details">
-                    <a href="#" class="p-name">Hourglass flare Jeans</a>
-                    <span class="p-price">₱799.00</span>
-                </div>
-            </div>
-
-
-            <!--product-box-6-->
-            <div class="product-box">
-
-                <!--img-->
-                <div class="product-img">
-                     <!--add-cart-->
-                <a href="#" class="add-cart">
-                    <i class="fas fa-shopping-cart"></i>
-                </a>
-                <img src="images/p-6.png" />
-                </div>
-
-                <!--details-->
-                <div class="product-details">
-                    <a href="#" class="p-name">Floral Sleeve Shirt</a>
-                    <span class="p-price">₱399.00</span>
-                </div>
-            </div>
-
-
-            <!--product-box-7-->
-            <div class="product-box">
-
-                <!--img-->
-                <div class="product-img">
-                     <!--add-cart-->
-                <a href="#" class="add-cart">
-                    <i class="fas fa-shopping-cart"></i>
-                </a>
-                <img src="images/p-7.png" />
-                </div>
-
-                <!--details-->
-                <div class="product-details">
-                    <a href="#" class="p-name">Flippy Mini Dress</a>
-                    <span class="p-price">₱499.00</span>
-                </div>
-            </div>
-
-            <!--product-box-8-->
-            <div class="product-box">
-
-                <!--img-->
-                <div class="product-img">
-                     <!--add-cart-->
-                <a href="#" class="add-cart">
-                    <i class="fas fa-shopping-cart"></i>
-                </a>
-                <img src="images/p-8.png" />
-                </div>
-
-                <!--details-->
-                <div class="product-details">
-                    <a href="#" class="p-name">Cargo track Pants</a>
-                    <span class="p-price">₱999.00</span>
-                </div>
-            </div>
         </div>
        </section>
 

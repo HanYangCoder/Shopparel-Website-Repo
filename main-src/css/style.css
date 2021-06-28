@@ -1040,6 +1040,23 @@ nav{
     margin-right: 5rem;
 }
 
+.btnlgt {
+  background-color: #f76b6a;
+  color: #F6F4F9;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+  text-align: center;
+}
+.btnlgt:hover {
+  background-color: #f75656;
+}
+
+
 /* Personal-Details */
 
 .personal-details {
@@ -1116,6 +1133,7 @@ nav{
     flex-wrap: wrap;
     margin-top: 15px;
     margin-left: 70px;
+    margin-bottom: 20px;
 }
 .sample-box{
     display: flex;
@@ -1395,6 +1413,7 @@ nav{
   .btn:hover {
     background-color: #FCA3B9;
   }
+  
   
   span.price {
     float: right;

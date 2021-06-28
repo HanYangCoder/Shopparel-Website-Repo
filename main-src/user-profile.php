@@ -1,3 +1,21 @@
+<?php
+  session_start();
+  require('db_connection.php');
+
+  $id = $_SESSION['userID'];
+
+  $usersql = $conn->prepare ("Select * from userDB where userID='$id'");
+	$usersql->execute();
+	$user = $usersql->fetch();
+
+  $_userID = $user['userID'];
+  $_userFullName = $user['firstName'] . " " . $user['lastName'];
+  $_contactNum = $user['contactNumber'];
+  $_email = $user['email'];
+  $_address = $user['address'];
+  $_userType = $user['userType'];
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -19,6 +37,21 @@
         
             body{
                 font-family:poppins;
+            }
+            .btnlgt {
+              background-color: #f76b6a;
+              color: #F6F4F9;
+              padding: 12px;
+              margin: 10px 0;
+              border: none;
+              width: 100%;
+              border-radius: 3px;
+              cursor: pointer;
+              font-size: 17px;
+              text-align: center;
+            }
+            .btnlgt:hover {
+              background-color: #f75656;
             }
         </style>
     <!--using -fontAwesome-for-icons-->
@@ -154,9 +187,9 @@
                 <ul>
                     <li>Name:</li>
                     <li>Email Address:</li>
-                    <li>Birthday:</li>
                     <li>Address:</li>
                     <li>Contact Number:</li>
+                    <li>User type:</li>
                     <br>
                     <li>Password:</li>
 
@@ -167,27 +200,31 @@
 
                 <ul>
                   <a href="#">
-                    <li>Alex Ward</li>
+                    <li><?=$_userFullName?></li>
                   </a>
                   <a href="#">
-                    <li>alexxward@gmail.com</li>
+                    <li><?=$_email?></li>
                   </a>
                   <a href="#">
-                    <li>October 8, 1997</li>
+                    <li><?=$_address?></li>
                   </a>
                   <a href="#">
-                    <li>California, USA</li>
+                    <li><?=$_contactNum?></li>
                   </a>
                   <a href="#">
-                    <li>(800) 73*-**45</li>
+                    <li><?=$_userType?></li>
                   </a>
                   <br>
                   <a href="#">
                     <li><strong>CHANGE PASSWORD</strong></li>
                   </a>
+                  <!---Logoutbutton-->
+                  <button class="btnlgt" onclick="document.location='logoutsession.php'">Log Out</button>  
                 </ul>
               </div>
 
+
+              
           </div> 
         </div>
         

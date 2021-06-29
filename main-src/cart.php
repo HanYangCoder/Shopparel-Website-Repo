@@ -126,12 +126,15 @@
             <!--heading-->
             <strong>Sign Up</strong>
             <!--inputs-->
-            <form>
-                <input type="text" name="fullname" placeholder="Full Name" required/>
-                <input type="email" name="email" placeholder="Example@gmail.com" required/>
-                <input type="password" name="password" placeholder="Password" required/>
+            <form name="signup_new_member" action="registerNewUser.php" method="GET">
+                <input type="text" id="firstName" name="firstName" placeholder="First Name" required/>
+                <input type="text" id="lastName" name="lastName" placeholder="Last Name" required/>
+                <input type="password" id="password" name="password" placeholder="Password" required/>
+                <input type="text" id="contactNumber" name="contactNumber" placeholder="333333" required/>
+                <input type="text" id="email" name="email" placeholder="Example@gmail.com" required/>
+                <input type="text" id="address" name="address" placeholder="Example City" required/>
                 <!--submit-btn-->
-                <input type="submit" value="Sign Up"/>
+                <input type="submit" id="submit" value="Sign Up"/>
             </form>
            <!--forget-and-sign-up-btn-->
            <div class="form-btns">

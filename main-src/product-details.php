@@ -197,10 +197,10 @@
           </div>
         </form>
 
-        <form class="form1">
+        <form class="form1" action="addToCart.php" method="GET">
 
           <input type="text" placeholder="1" />
-          <a href="#" class="addCart">Add To Cart</a>
+          <a href="addToCart.php" class="addCart">Add To Cart</a>
         </form>
         <h3>Product Detail</h3>
         <p>

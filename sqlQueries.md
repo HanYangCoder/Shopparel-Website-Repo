@@ -89,3 +89,21 @@ INSERT INTO `productsDB`(`productID`, `productName`, `imageCode`, `price`, `cate
 ('1062','Elastic Waist Grid,','k-15','499','pants','101'),
 ('1063','Dark Greenmen Cargo Pants','m-23','699','pants','101'),
 ('1064','Short and Thick Legs','pp-8','499','pants','101');
+
+Buffer code
+
+<?php /*foreach ($shoppingcart as $cartItem):
+    $productID = $cartItem['productID'];
+    $productsql = $conn->prepare ("Select * from productsDB where productID='$productID'");
+    $productsql->execute();
+    $productSelected = $productsql->fetch();
+
+    $productName = $productSelected['productName'];
+    ?>
+    <li><?= $productSelected['productName'];?> @ P<?=$cartItem['price'];?> x <?=$cartItem['amountPurchased'];?> total = P <?=$cartItem;?></li>
+<?php endforeach; */?>
+
+
+<?php /*foreach ($shoppingcart as $cartItem):?>
+<li><?= $cartItem['dateOrdered']; ?></li>
+<?php endforeach; */?>

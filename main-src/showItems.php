@@ -33,6 +33,7 @@
             $imgLocation = "images/" . $productsList['imageCode'] . ".png";
             $price = $productsList['price'];
             $productDetailsRedirect = "product-details.php?id=" . $productsList['productID'];
+            $addToCartRedirect = "addToCart.php?id=" . $productsList['productID'] . "&amp;amountPurchased=1";
 
             echo <<<HTML
             <!-- <h1>HEREDOC TEST WORKS</h1> -->
@@ -41,7 +42,7 @@
              <!--img-->
              <div class="product-img">
                   <!--add-cart-->
-             <a href=$productDetailsRedirect class="add-cart">
+             <a href=$addToCartRedirect class="add-cart">
                  <i class="fas fa-shopping-cart"></i>
              </a>
              <img src=$imgLocation />

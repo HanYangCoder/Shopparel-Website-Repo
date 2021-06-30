@@ -39,7 +39,7 @@ Databases and columns:
 1. UserDB `(userID (PK), firstName, lastName, password, contactNumber, email, address, userType (Buyer/Seller))`
 2. ProductsDB `(productID (PK), productName, imageCode, price, category, userID (FK))`
 3. AdminDB `(adminID (PK), firstName, lastName, contactNumber, email, address)`
-4. ShoppingCartDB `(itemID (PK), userID (FK), productID (FK), price, amount, partialSummary)`
+4. ShoppingCartDB `(itemID (PK), productID (FK), userID (FK), price, amountPurchased, totalPrice, dateOrdered)`
 5. SalesListDB `(soldItemCode (PK), invoiceNumber, productID (FK), amount, price, totalPurchasePrice, userID - Buyer (FK), userID - Seller (FK))`
 
 ### Website module components
